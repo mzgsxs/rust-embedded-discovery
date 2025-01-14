@@ -17,4 +17,7 @@ embedded-hal: provide a set of traits that describe behaviour which is usually s
 
 RTT Real-Time Transfer - debugging protocol, communication between a microcontroller and a host computer over a JTAG or SWD interface. small memory buffer, minimizes CPU overhead.
 
-Serial communication - asynchronous protocol, neither of the shared lines carries a clock signal. allows duplex communication
+Serial communication - asynchronous protocol, neither of the shared lines carries a clock signal. allows duplex communication. works with frames. Each frame has one start bit, 5 to 9 bits of payload (data) and 1 to 2 stop bits. baud rate (speed of the protocol, in bps) can be 9600, 19200, 38400, 57600 or 115200.
+Hardware usually have USB-to-serial converter
+
+UART  Universal Asynchronous Receiver/Transmitter - 
