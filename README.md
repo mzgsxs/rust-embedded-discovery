@@ -4,6 +4,7 @@ https://docs.rust-embedded.org/discovery/microbit/index.html
 
 ## Basic Concepts
 Cross compiling - compile in dev machine (x86 etc), generate binary machine code for target machine (arm etc)
+
 JTAG - Joint Test Action Group: for testing, debugging, and programming, operates through a Test Access Port (TAP)
 
 PAC - Peripheral Access Crate: provide direct interface to the peripherals of the chip
